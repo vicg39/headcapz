@@ -1,0 +1,24 @@
+.img-cart {
+    width: 5rem;
+    height: 5rem;
+}
+
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: black;
+    border-radius: 0 !important;
+    border: 0.1rem solid black !important;
+}
+
+.btn-black:hover {
+    background: #366ed8 !important;
+    color: white !important;
+}
+
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #ffbd39;
+}

@@ -1,0 +1,44 @@
+// :root{
+//     --mainPurple: #5C5BF2;
+//     --mainRed: #EA1621;
+//     --mainBlack: #080609;
+//     --mainWhite: #f8f8f8;
+//     --mainYellow: #f7be16;
+//     --mainGreen: #08ffc8;
+// }
+
+
+// cart button
+button {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    background: #ffbd39;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    margin: 0.2rem 0.5rem 0.2 0;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        background: #366ed8; 
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+// nav links
+nav {
+    background: #263859;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.3rem;
+}
+
+
+
+
+
